@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Aakash Fitness - Premium Gym in Ulhasnagar, Maharashtra. Affordable memberships, personal training, fitness coaching, BMI calculator and more.">
+<meta name="keywords" content="Gym Ulhasnagar, Fitness Center, Personal Training, Gym Membership, Aakash Fitness">
+<meta name="author" content="Aakash Fitness">
+
+<title>Aakash Fitness | Premium Gym in Ulhasnagar</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+    <div class="logo">
+        <span>Aakash</span> Fitness
+    </div>
+
+    <nav>
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#plans">Plans</a></li>
+            <li><a href="#training">Training</a></li>
+            <li><a href="#bmi">BMI</a></li>
+            <li><a href="#trainers">Trainers</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Transform Your Body,<br>Transform Your Life</h1>
+
+        <p>
+            Premium fitness experience for students and working professionals in Ulhasnagar.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#plans" class="btn">Join Now</a>
+            <a href="https://wa.me/918105050580" target="_blank" class="btn btn-outline">
+                WhatsApp Us
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section class="section" id="about">
+    <div class="container">
+        <h2 class="section-title">About Aakash Fitness</h2>
+
+        <div class="about-grid">
+            <div>
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800" alt="">
+            </div>
+
+            <div>
+                <h3>Your Fitness Journey Starts Here</h3>
+
+                <p>
+                    Aakash Fitness is a premium gym located in Ulhasnagar, Maharashtra.
+                    We help students and working professionals achieve their fitness goals
+                    through expert coaching, modern equipment and personalized workout plans.
+                </p>
+
+                <p>
+                    Whether your goal is weight loss, muscle gain, strength training,
+                    or overall fitness, we provide a motivating environment to help you succeed.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Membership Plans -->
+<section class="section dark-section" id="plans">
+    <div class="container">
+        <h2 class="section-title">Membership Plans</h2>
+
+        <div class="plans">
+
+            <div class="plan-card">
+                <h3>Monthly</h3>
+                <div class="price">₹1000</div>
+                <p>1 Month Access</p>
+                <p>Gym Equipment</p>
+                <p>Fitness Guidance</p>
+                <a href="#contact" class="btn">Enquire Now</a>
+            </div>
+
+            <div class="plan-card popular">
+                <h3>Quarterly</h3>
+                <div class="price">₹2700</div>
+                <p>3 Months Access</p>
+                <p>Fitness Assessment</p>
+                <p>Workout Plan</p>
+                <a href="#contact" class="btn">Enquire Now</a>
+            </div>
+
+            <div class="plan-card">
+                <h3>Yearly</h3>
+                <div class="price">₹9000</div>
+                <p>12 Months Access</p>
+                <p>Priority Support</p>
+                <p>Best Value</p>
+                <a href="#contact" class="btn">Enquire Now</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Personal Training -->
+<section class="section" id="training">
+    <div class="container">
+        <h2 class="section-title">Personal Training</h2>
+
+        <div class="training-box">
+            <p>
+                Get personalized workout programs, nutrition guidance,
+                strength coaching and one-on-one support from certified trainers.
+            </p>
+
+            <a href="https://wa.me/918105050580" class="btn">
+                Book Personal Training
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- BMI Calculator -->
+<section class="section dark-section" id="bmi">
+    <div class="container">
+
+        <h2 class="section-title">BMI Calculator</h2>
+
+        <div class="bmi-box">
+            <input type="number" id="height" placeholder="Height (cm)">
+            <input type="number" id="weight" placeholder="Weight (kg)">
+            <button onclick="calculateBMI()" class="btn">Calculate BMI</button>
+
+            <h3 id="result"></h3>
+        </div>
+
+    </div>
+</section>
+
+<!-- Trainers -->
+<section class="section" id="trainers">
+    <div class="container">
+
+        <h2 class="section-title">Expert Trainers</h2>
+
+        <div class="trainer-grid">
+
+            <div class="trainer-card">
+                <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?w=500">
+                <h3>Rahul Sharma</h3>
+                <p>Strength Coach</p>
+            </div>
+
+            <div class="trainer-card">
+                <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=500">
+                <h3>Priya Patel</h3>
+                <p>Fitness Trainer</p>
+            </div>
+
+            <div class="trainer-card">
+                <img src="https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=500">
+                <h3>Aman Singh</h3>
+                <p>Personal Trainer</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Gallery -->
+<section class="section dark-section" id="gallery">
+    <div class="container">
+
+        <h2 class="section-title">Gym Gallery</h2>
+
+        <div class="gallery-grid">
+
+            <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=600">
+            <img src="https://images.unsplash.com/photo-1534367507873-d2d7e24c797f?w=600">
+            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600">
+            <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600">
+            <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=600">
+            <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=600">
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="section">
+    <div class="container">
+
+        <h2 class="section-title">Testimonials</h2>
+
+        <div class="testimonial-grid">
+
+            <div class="testimonial">
+                ⭐⭐⭐⭐⭐
+                <p>
+                    Amazing gym with modern equipment and motivating trainers.
+                </p>
+                <h4>- Rohan</h4>
+            </div>
+
+            <div class="testimonial">
+                ⭐⭐⭐⭐⭐
+                <p>
+                    Best gym in Ulhasnagar. Affordable and professional.
+                </p>
+                <h4>- Sneha</h4>
+            </div>
+
+            <div class="testimonial">
+                ⭐⭐⭐⭐⭐
+                <p>
+                    Lost 12 kg in 5 months with proper guidance.
+                </p>
+                <h4>- Akash</h4>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="section dark-section" id="contact">
+    <div class="container">
+
+        <h2 class="section-title">Membership Enquiry</h2>
+
+        <form class="contact-form">
+
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Email Address" required>
+
+            <input type="tel" placeholder="Phone Number" required>
+
+            <textarea rows="5" placeholder="Membership Enquiry"></textarea>
+
+            <button class="btn">Submit Enquiry</button>
+
+        </form>
+
+    </div>
+</section>
+
+<!-- Map -->
+<section class="map-section">
+
+<iframe
+src="https://maps.google.com/maps?q=Ulhasnagar,Maharashtra&t=&z=13&ie=UTF8&iwloc=&output=embed"
+allowfullscreen="">
+</iframe>
+
+</section>
+
+<!-- Footer -->
+<footer>
+    <h3>Aakash Fitness</h3>
+    <p>Ulhasnagar, Maharashtra, India</p>
+    <p>📞 8105050580</p>
+</footer>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/918105050580"
+target="_blank"
+class="whatsapp">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
